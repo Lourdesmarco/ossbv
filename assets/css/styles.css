@@ -16,4 +16,8 @@ body {
 .p5Canvas {
   grid-area: canvas;
 }
+
+input {
+  max-width: 10%;
+}
 /*# sourceMappingURL=styles.css.map */
