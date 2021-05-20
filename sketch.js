@@ -15,7 +15,7 @@ function setup() {
 	createCanvas(windowWidth, windowHeight - 100);
 	setupAudio();
   
-  audio.play();
+  //audio.play();
   
   fill(150);
   noStroke();

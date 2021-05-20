@@ -1,12 +1,16 @@
 body {
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-areas: "n1" "canvas" "n2";
+  font-family: sans-serif;
 }
 
 .navbar-top {
   grid-area: n1;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  font-weight: bold;
+  background-color: #eee;
 }
 
 .navbar-bottom {
@@ -17,7 +21,16 @@ body {
   grid-area: canvas;
 }
 
+video {
+  width: 100%;
+}
+
 input {
   max-width: 10%;
+}
+
+.main_grid {
+  display: grid;
+  grid-template-areas: "n1" "canvas" "n2";
 }
 /*# sourceMappingURL=styles.css.map */
