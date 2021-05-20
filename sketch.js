@@ -1,3 +1,5 @@
+
+
 let audio;
 let labelSize;
 let sliderSize;
@@ -75,6 +77,7 @@ function updateAudio() {
 	fft = fftRaw.logAverages(fftRaw.getOctaveBands(bands)); // array (0, 255)
 
 }
+
 
 
 
